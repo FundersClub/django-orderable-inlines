@@ -5,6 +5,7 @@ class OrderableInlineMixin(object):
 
     class Media:
         js = (
+            'js/jquery.browser.min.js',
             'js/orderable-inline-jquery-ui.js',
             'js/orderable-inline.js',
         )
